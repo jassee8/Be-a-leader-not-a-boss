@@ -1,0 +1,21 @@
+<svg width="400" height="600" viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="600" fill="black"/>
+  
+  <!-- Content area -->
+  <rect x="50" y="50" width="300" height="500" fill="#111" stroke="#333" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">LEADERSHIP</text>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">UNVEILED</text>
+  
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="16" fill="#E63946" text-anchor="middle">The True Cost of Authority</text>
+  
+  <!-- Graphic Placeholder -->
+  <rect x="100" y="280" width="200" height="200" fill="white"/>
+  <rect x="100" y="430" width="200" height="50" fill="#E63946"/>
+  <circle cx="200" cy="380" r="40" fill="black"/>
+  <path d="M 160 480 L 180 440 L 220 440 L 240 480 Z" fill="black"/>
+  
+  <!-- Author -->
+  <text x="200" y="530" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">Jassee N. Nicola Torrington MBA</text>
+</svg>
