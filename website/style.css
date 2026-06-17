@@ -203,83 +203,6 @@ h2 {
     background-color: #111;
 }
 
-.coaching, .products {
-    background-color: #000;
-    text-align: center;
-}
-
-.coaching p, .products p {
-    max-width: 800px;
-    margin: 0 auto 30px;
-    font-size: 1.2rem;
-}
-
-.program-list {
-    margin-bottom: 40px;
-}
-
-.program-list ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.program-list li {
-    background: #1a1a1a;
-    padding: 15px 25px;
-    border-radius: 8px;
-    border: 1px solid #333;
-}
-
-.program-list a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-    margin-top: 40px;
-}
-
-.product-card {
-    background: #111;
-    padding: 30px;
-    border-radius: 12px;
-    border: 1px solid #222;
-    transition: transform 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.product-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--primary-color);
-}
-
-.product-card h3 {
-    margin-bottom: 15px;
-    font-size: 1.3rem;
-    color: var(--primary-color);
-}
-
-.product-card p {
-    font-size: 1rem;
-    margin-bottom: 25px;
-    color: #ccc;
-}
-
-.cta-center {
-    display: flex;
-    justify-content: center;
-}
-
 .signup-box {
     max-width: 600px;
     margin: 0 auto;
@@ -307,42 +230,6 @@ footer {
     text-align: center;
     border-top: 1px solid #333;
     opacity: 0.6;
-}
-
-.distinction {
-    background-color: #000;
-}
-
-.distinction-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.distinction-card {
-    background-color: #111;
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid #333;
-    transition: border-color 0.3s;
-}
-
-.distinction-card:hover {
-    border-color: var(--primary-color);
-}
-
-.distinction-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 15px;
-    font-family: 'Playfair Display', serif;
-}
-
-.distinction-footer {
-    max-width: 800px;
-    margin: 40px auto 0;
-    text-align: center;
-    font-style: italic;
-    opacity: 0.8;
 }
 
 @media (max-width: 768px) {
