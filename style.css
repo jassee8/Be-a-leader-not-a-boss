@@ -373,3 +373,82 @@ footer {
         flex-direction: column;
     }
 }
+
+/* Pricing & Bundle Specifics */
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 15px !important;
+}
+
+.old-price {
+    text-decoration: line-through;
+    opacity: 0.5;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.bundle-card {
+    border: 2px solid var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    background: var(--primary-color);
+    color: white;
+    padding: 5px 40px;
+    transform: rotate(45deg);
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.bundle-includes {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.bundle-includes li::before {
+    content: "✓ ";
+    color: var(--primary-color);
+}
+
+.meta {
+    font-size: 0.85rem !important;
+    font-style: italic;
+    margin-top: -15px;
+    margin-bottom: 20px !important;
+    opacity: 0.7;
+}
+
+.individual-products {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #222;
+}
+
+.individual-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.individual-grid a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.individual-grid a:hover {
+    color: var(--primary-color);
+}
